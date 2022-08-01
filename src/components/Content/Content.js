@@ -55,14 +55,14 @@ function Content() {
 
 				<div className='content-header-person'>
 					<button className='content-search'>
-						<img src={search} />
+						<img src={search} alt= "search icon" />
 					</button>
 
 					<button className='content-newBtn'>
-						<img src={newBtn} />
+						<img src={newBtn}  alt ="btn icon"/>
 					</button>
 					<span className='content-name'>Jones Ferdinand</span>
-					<img className='content-header-img' src={Person} />
+					<img className='content-header-img' src={Person}  alt="person "/>
 				</div>
 			</div>
 
@@ -82,7 +82,7 @@ function Content() {
 						<span className='divider-last'>Yesterday</span>
 					</div>
 
-					<img width={715} height={400} src={Me} />
+					<img width={715} height={400} src={Me} alt="this is mine" />
 				</div>
 
 				<ul className='content-body-list'>
@@ -156,7 +156,7 @@ function Content() {
 				<div className='create-tasks'>
 					<p className='tasks-creator'>Create new task</p>
 					<button className='tasks-create-btn'>
-						<img src={Plus} />
+						<img src={Plus}  alt="plus icon"/>
 					</button>
 				</div>
 
