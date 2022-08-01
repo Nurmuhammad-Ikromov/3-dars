@@ -1,0 +1,18 @@
+#sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 18px 24px 18px 32px;
+}
+
+.sidebar-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 24px;
+}
+
+.sidebar-title {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #A4A6B3;
+}
