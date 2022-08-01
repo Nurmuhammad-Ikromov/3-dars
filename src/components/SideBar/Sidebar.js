@@ -15,7 +15,7 @@ function Sidebar() {
 	return (
 		<div className='sidebar'>
 			<div className='sidebar-top'>
-				<img className='sidebar-logo' src={logo} />
+				<img className='sidebar-logo' src={logo}  alt="site logo"/>
 				<span className='sidebar-headText'>Dashboard Kit</span>
 			</div>
 
